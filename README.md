@@ -1,7 +1,7 @@
 # Portfolio
 My updated portfolio 7/19/2019
 
-https://alexlo15.github.io/Portfolio/
+https://alexlo15.github.io/
 
 
 Updating my portfolio during my time at Rutgers coding bootcamp Summer 2019
