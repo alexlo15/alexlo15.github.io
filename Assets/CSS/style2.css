@@ -60,27 +60,57 @@ p{
   }
 
 
-  /*size and shaping of portfolio pics  */
+  /*size and shaping of portfolio pics and overlay text */
   .pic{
       width: 400px;
       height: 300px;
       padding: 40px;
       margin: 10px;
+      display: block;
+      width: 100%;
+      height: auto;
   }
 
- 
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
 
- 
+  .container:hover .overlay {
+    opacity: 1;
+  } 
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  /* My bio pic */
   #me{
     width: 20%;
     height: 20%;
     float: left;
-    box-shadow: 10px 10px rgba(163, 163, 163, 0.075)
+    box-shadow: 10px 10px rgba(163, 163, 163, 0.075);
+    border-right: solid white 5px;
+    padding: 1.5em;
+    margin: 0 -4em;
   }
 
-  #top{
-    padding-top: 40px;
-  }
   
 #first{
   margin-top: 20%;
