@@ -1,12 +1,5 @@
-# Portfolio
-My updated portfolio as of 9/19/2019
-
-
-This was my portfolio I from the Bootcamp that I have continued working on. 
-
-PS Hire me
-
 # [Portfolio](https://alexlo15.github.io/)
+
 
 ___
 
