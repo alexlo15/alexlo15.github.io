@@ -26,6 +26,16 @@ p{
 
 }
 
+.skill{
+  margin-top: 50px;
+  border-top: solid 5px antiquewhite;
+  border-bottom: solid 5px antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 .text-focus-in {
 	-webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -82,32 +92,86 @@ display: inline-block;
 
   .overlay {
     position: absolute;
-    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
     background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-bottom: solid 5px antiquewhite;
+    border-top: solid 5px antiquewhite;
   }
 
   .container:hover .overlay {
     opacity: 1;
+    width: 100%;
   } 
 
   .text {
-    color: white;
+    color: antiquewhite;
     font-size: 30px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    white-space: nowrap;
+
   }
+
+  .description{
+      color: antiquewhite;
+      font-size: 15px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+      white-space: nowrap;
+
+  }
+
+  .tools{
+    color: antiquewhite;
+    font-size: 15px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+
+  }
+
+
+.tools, .text, .description{
+
+    background-color: #008CBA;
+    border: none;
+    color: antiquewhite;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+  
+}
+  .tools:hover, .text:hover, .description:hover {
+    opacity: 1;
+    color: black;
+    text-decoration: none;
+  }
+
 /* /////////////////////////////////////////////// */
 
   /* My bio pic */
@@ -123,7 +187,7 @@ display: inline-block;
 
   
 #first{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 /* button hovers for contact */
