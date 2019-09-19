@@ -1,5 +1,7 @@
 # [Portfolio](https://alexlo15.github.io/)
+___
 
+![Main](Assets/Images/portfolio.JPG)
 
 ___
 
@@ -48,7 +50,6 @@ Our website features:
 
 ## Screenshots
 
-* ![Logo](https://github.com/alexlo15/knodeyacode/blob/master/client/src/components/shared/Navigation/logo.png "Logo")
 * ![Main Page](https://github.com/alexlo15/knodeyacode/blob/master/client/public/image/mainPage.PNG "MainPage")
 * ![FlashCard Page](https://github.com/alexlo15/knodeyacode/blob/master/client/public/image/flashSelectionPage.PNG "FlashCard Page")
 * ![MemoryGame](https://github.com/alexlo15/knodeyacode/blob/master/client/public/image/memoryGame.PNG "MemoryGame")
