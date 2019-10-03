@@ -1,8 +1,34 @@
-# Portfolio
-My updated portfolio as of 9/19/2019
+# [Portfolio](https://alexlo15.github.io/)
+___
 
-https://alexlo15.github.io/
+![Main](Assets/Images/portfolio.JPG)
 
-This was my portfolio I from the Bootcamp that I have continued working on. 
+___
+
+## Motivation
+My portfolio, it is still simple HTML, JS, and CSS, but I really like the way it looks.
 
 PS Hire me
+
+## Technologies used and why
+
+**Built with:**
+* [HTML]
+* [CSS]
+* [JavaScript]
+ 
+
+## Features
+Website features: 
+
+1. CSS animations
+2. My ugly face
+
+
+## License
+A short snippet describing the license (MIT, Apache etc)
+
+MIT © 
+[Alex Lo](https://github.com/alexlo15)
+
+
