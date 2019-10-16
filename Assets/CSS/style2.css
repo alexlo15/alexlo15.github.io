@@ -25,6 +25,10 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+.col-sm-12{
+  text-align: center;
+  align-content: center;
+}
 .container:hover:hover{
   background-color: rgba(128, 128, 128, 0.459);
 }
@@ -173,6 +177,18 @@ display: inline-block;
   }
 
 /* /////////////////////////////////////////////// */
+
+@media only screen and (max-width: 900px) {
+#me{
+  display: none;
+}
+
+#first{
+  padding-top: 40px;
+}
+
+}
+
 
   /* My bio pic */
   #me{
